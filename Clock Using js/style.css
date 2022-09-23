@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h1 {
+    letter-spacing: 5px;
+    display: inline-block;
+    border-bottom: 2px solid;
+}
+
+.box {
+    background-color:#e6ecdc;
+    color: #00628B;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cols {
+    position: relative;
+}
+
+.cols::after {
+    position: absolute;
+    content: ':';
+    top: 22%;
+    left: 126%;
+    right: -7%;
+}
+
+.cols:last-child::after {
+    content: none;
+}
+
+.cbox {
+    background-color:#e6ecdc;
+    color: #00628B;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
