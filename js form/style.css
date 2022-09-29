@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    color: red;
+}
+.back{
+    background-image: url("bg-img1.jpg");
+    background-size: cover;
+    padding: 89px 0;
+    width: 100%;
+}
+input:focus-visible{
+    outline: 0px;
+}
+select:focus-visible{
+    outline: 0px;
+}
+.data{
+    background-color: white;
+    border-radius: 10px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid grey;      
+}
+select{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+.buttn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    border: none;
+}
+.buttn:hover{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    border: none;
+}
+h3::before{
+    content: '.';
+    position: absolute;
+    left: -5%;
+    top: -13.5%;
+    bottom: 0%;
+}
+h3::after{
+    top: -12.5%;
+    content: '.';
+    position: absolute;
+    left: 101%;
+    bottom: 0%;
+    right: -6%;
+}
