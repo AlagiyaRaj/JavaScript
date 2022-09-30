@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+.wrapper{
+    background-image: url("bg-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    color: red;
+}
+.back{
+    /* background-image: url("bg-img2.jfif"); */
+    background-size: cover;
+    /* padding: 52px 0; */
+    width: 100%; 
+}
+input:focus-visible{
+    outline: 0px;
+}
+select:focus-visible{
+    outline: 0px;
+}
+.data{
+    background-color: white;
+    /* border-radius: 10px; */
+}
+input{
+    border: none;
+    border-bottom: 2px solid grey;      
+}
+select{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+.buttn{
+    border-radius: 20px;
+    background-color: grey;
+    border: none;
+    padding: 10px 20px;
+}
+.buttn:hover{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:grey;
+    border: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.back-img{
+    background-image: url(bg-img1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+#lform{
+    display: none;
+}
